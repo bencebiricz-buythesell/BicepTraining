@@ -45,7 +45,7 @@ az deployment group list --output table
 ```
 
 ### Useful links
-[Overview of Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+[Overview of Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
 
 [Fundamentals of Bicep](https://learn.microsoft.com/en-gb/training/paths/fundamentals-bicep/)
 
