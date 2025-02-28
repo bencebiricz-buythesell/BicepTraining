@@ -1,0 +1,32 @@
+### Helpful Links:
+aka.ms/bicep
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install#windows
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-script-bicep?tabs=CLI
+https://github.com/Azure/azure-quickstart-templates
+https://azure.github.io/Azure-Verified-Modules/
+https://github.com/Azure/Enterprise-Scale
+https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/implementation#reference-implementation
+https://github.com/Azure/review-checklists
+https://learn.microsoft.com/en-us/training/modules/migrate-azure-resources-bicep/8-workflow-migrate-resources-bicep
+
+https://github.com/Azure/azure-docs-bicep-samples/tree/main/samples
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/patterns-shared-variable-file
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-script-bicep?tabs=PowerShell
+
+https://github.com/Azure/azure-docs-bicep-samples/tree/main/samples
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/patterns-shared-variable-file
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/best-practices
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-script-bicep?tabs=PowerShell
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/parameter-files?tabs=Bicep
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/troubleshooting/error-resource-quota?tabs=azure-cli#solution
+
+Get data/secrets from keyvaults
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/bicep-functions-resource
+
+This might be really useful:
+https://github.com/Azure/azure-docs-bicep-samples
+
