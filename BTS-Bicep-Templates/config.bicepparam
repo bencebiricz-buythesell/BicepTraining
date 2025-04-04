@@ -1,12 +1,60 @@
 using 'main.bicep'
 
-param clientName = 'default'
-param environmentType = 'dev'
-param location = 'eastus'
-param sku = 'Standard_LRS'
-param kind = 'StorageV2'
-param accessTier = 'Hot'
-param tags = {
-  Environment: environmentType
-  Client: clientName
+param clientName = 'test'
+param environmentType = 'Prod'
+
+param environmentConfigurationMap = {
+  Prod: {
+    Regions: [
+      {
+        name: 'eastus'
+        abbreviation: null
+      }
+      {
+        name: 'northeurope'
+        abbreviation: 'na'
+      }
+      {
+        name: 'southeastasia'
+        abbreviation: 'sa'
+      }
+    ]
+    Sku: 'Standard_LRS'
+    Kind: 'StorageV2'
+    AccessTier: 'Hot'
+    Tags: {
+      Environment: environmentType
+      Client: clientName
+    }
+  }
+  Dev: {
+    Regions: [
+      {
+        name: 'eastus'
+        abbreviation: null
+      }
+    ]
+    Sku: 'Standard_LRS'
+    Kind: 'StorageV2'
+    AccessTier: 'Hot'
+    Tags: {
+      Environment: environmentType
+      Client: clientName
+    }
+  }
+  Uat: {
+    Regions: [
+      {
+        name: 'eastus'
+        abbreviation: null
+      }
+    ]
+    Sku: 'Standard_LRS'
+    Kind: 'StorageV2'
+    AccessTier: 'Hot'
+    Tags: {
+      Environment: environmentType
+      Client: clientName
+    }
+  }
 }

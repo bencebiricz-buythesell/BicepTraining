@@ -1,0 +1,48 @@
+
+Configuration Dictionary (Valid Values)
+=======================================
+
+This reference explains the allowed values for each field in your Bicep configuration when deploying infrastructure.
+
+1. location (Azure Region)
+---------------------------
+Specifies the Azure region where the resources will be deployed.
+
+Allowed values:
+- eastus
+- eastus2
+- westus
+- westeurope
+- northeurope
+
+2. Sku (Storage Account SKU)
+-----------------------------
+Specifies the performance and redundancy type for the storage account.
+
+Allowed values:
+- Standard_LRS       – Standard Locally Redundant Storage
+- Standard_GRS       – Standard Geo-Redundant Storage
+- Standard_RAGRS     – Standard Read-Access Geo-Redundant Storage
+- Standard_ZRS       – Standard Zone-Redundant Storage
+- Premium_LRS        – Premium Locally Redundant Storage
+
+3. Kind (Storage Account Type)
+-------------------------------
+Defines the type of storage account.
+
+Allowed values:
+- Storage            – Legacy storage account
+- StorageV2          – General-purpose v2 (recommended)
+- BlobStorage        – Blob-only storage
+- FileStorage        – File-only premium storage
+- BlockBlobStorage   – Premium performance block blob only
+
+4. AccessTier (Storage Access Tier)
+-----------------------------------
+Determines the default access tier for blobs (applies only to hot/cool storage).
+
+Allowed values:
+- Hot                – Frequent access, higher cost
+- Cool               – Infrequent access, lower cost
+- Cold               – Archive-like access (less common)
+- Premium            – Premium performance tier (requires matching SKU)
