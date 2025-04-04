@@ -2,6 +2,9 @@ using 'main.bicep'
 
 param clientName = 'test'
 param environmentType = 'Prod'
+param defaultLocation = 'eastus'
+
+param hasLogAnalyticsWorkspace = true
 
 param environmentConfigurationMap = {
   Prod: {
